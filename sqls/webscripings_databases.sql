@@ -8,11 +8,11 @@
 
 
 CREATE TABLE study_webscripings_database (
-    id SERIAL PRIMARY KEY,
-    contents TEXT,
-    link TEXT,
-    link_html TEXT,
-    link_href TEXT,
+    id VARCHAR(500) PRIMARY KEY,
+    contents VARCHAR(500),
+    link    VARCHAR(500),
+    link_html VARCHAR(500),
+    link_href VARCHAR(500),
     created_at TIMESTAMP DEFAULT NOW()
 );
 
