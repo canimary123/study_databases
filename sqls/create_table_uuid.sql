@@ -12,4 +12,10 @@ VALUES
 ('Bob'),
 ('Charlie');
 
-SELECT * FROM users_uuid_name;
+SELECT id _name, name from users_uuid_name;
+
+
+
+update users_uuid_name
+set name = 'Updated Name'
+where id_name = '34f056a6-d123-4640-977b-7f86fdf3630e';
